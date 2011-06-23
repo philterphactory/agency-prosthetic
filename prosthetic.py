@@ -2413,7 +2413,7 @@ def proposal_description():
     the_object = " ".join([event(), an_object()])
     sections = [salutation(),
                 verb(),
-                api(),
+                api_url(),
                 action(),
                 plurality(the_emotion, the_media_format),
                 the_emotion,
